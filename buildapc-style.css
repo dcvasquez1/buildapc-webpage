@@ -1,0 +1,38 @@
+body{
+	background-color: black;
+}
+
+#pic{
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-radius: 50%;
+}
+
+#pic2{
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-radius: 20%;
+}
+
+#ip{
+	display: block;
+	margin: auto;
+	width: 50%;
+	color: white;
+}
+
+#title{
+	display: block;
+	margin: auto;
+	width: 40%;
+	color: green;
+}
+
+#bt{
+	display: block;
+	margin: auto;
+	width: 40%;
+}
+
