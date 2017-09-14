@@ -1,4 +1,4 @@
-body{
+#bod{
 	background-color: black;
 }
 
@@ -33,6 +33,10 @@ body{
 #bt{
 	display: block;
 	margin: auto;
-	width: 40%;
+	width: 10%;
+}
+
+a:hover { 
+    background-color: yellow;
 }
 
