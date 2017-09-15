@@ -40,8 +40,9 @@ body {
 	width: 10%;
 }
 
-a:hover { 
-    background-color: yellow;
+iframe {
+	border: none;
+	margin: 15px;
 }
 
 .navbar-default .navbar-nav > .active > a,
