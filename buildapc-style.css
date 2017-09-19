@@ -6,6 +6,23 @@ body {
 	background-color: #e1e1e1;
 }
 
+figure {
+  float: left;
+}
+img {
+     display:inline;
+}
+p {
+    clear:left;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 280px;
+    padding-bottom: 8px;
+}
+h3 {
+    clear:left;
+}
+
 #pic {
 	display: block;
 	margin: auto;
