@@ -7,10 +7,10 @@ body {
 }
 
 figure {
-  float: left;
+	float: left;
 }
 img {
-     display:inline;
+	display:inline;
 }
 p {
     clear:left;
@@ -60,6 +60,15 @@ h3 {
 iframe {
 	border: none;
 	margin: 15px;
+}
+
+button {
+	border: none;
+	margin: 15px;
+	background-color: #5a73a5;
+	color: #ffffff;
+	font-size: 18px;
+	border-radius: 4px;
 }
 
 .navbar-default .navbar-nav > .active > a,
