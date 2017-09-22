@@ -71,6 +71,14 @@ button {
 	border-radius: 4px;
 }
 
+#q1 {
+	text-align: center;
+}
+
+#q1 > img {
+	height: 250px;
+}
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus,
