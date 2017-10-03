@@ -15,7 +15,7 @@ def render_page2():
     return render_template('instructions.html')
     
 @app.route("/resources")
-def render_page2():
+def render_page3():
     return render_template('resources.html')
     
 if __name__=="__main__":
