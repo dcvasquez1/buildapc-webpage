@@ -6,17 +6,31 @@ app = Flask(__name__) #__name__ = "__main__" if this is the file that was run.  
 def render_main():
     return render_template('index.html')
 
-@app.route("/overview")
+@app.route("/moon")
 def render_page1():
-    return render_template('overview.html')
+    return render_template('moon.html')
 
-@app.route("/instructions")
+@app.route("/mars")
 def render_page2():
-    return render_template('instructions.html')
-    
-@app.route("/resources")
+    return render_template('mars.html')
+
+@app.route("/venus")
 def render_page3():
-    return render_template('resources.html')
+    return render_template('venus.html')
+    
+@app.route("/titan")
+def render_page4():
+    return render_template('titan.html')
+
+@app.route("/response")
+def render_response():
+    responseWeight = float(request.args['weight'])
+    #The request object stores infor about the request sent to the server
+    #args is a "MultiDict" - a dictionary that can hold more than one value per key
+    #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
+    
+    reply = "Your weight is " + responseWeight + " on this planet."
+    return render_template('response.html', response = reply)
     
 if __name__=="__main__":
     app.run(debug=False, port=54321)
