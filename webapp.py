@@ -23,7 +23,7 @@ def render_page4():
     return render_template('titan.html')
 
 @app.route("/responseMoon")
-def render_response():
+def render_responseMoon():
     weight = request.args['weight']
     #The request object stores infor about the request sent to the server
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
@@ -33,7 +33,7 @@ def render_response():
     return render_template('response.html', response = reply)
 
 @app.route("/responseMars")
-def render_response():
+def render_responseMars():
     weight = request.args['weight']
     #The request object stores infor about the request sent to the server
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
@@ -43,7 +43,7 @@ def render_response():
     return render_template('response.html', response = reply)
 
 @app.route("/responseTitan")
-def render_response():
+def render_responseTitan():
     weight = request.args['weight']
     #The request object stores infor about the request sent to the server
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
@@ -53,7 +53,7 @@ def render_response():
     return render_template('response.html', response = reply)
 
 @app.route("/responseVenus")
-def render_response():
+def render_responseVenus():
     weight = request.args['weight']
     #The request object stores infor about the request sent to the server
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
