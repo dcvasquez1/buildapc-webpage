@@ -31,7 +31,7 @@ def render_responseMoon():
     
     convertedWeight = float(weight)*0.177
     
-    reply = "Your weight is " + str(convertedWeight) + " on the Moon."
+    reply = "You would weigh " + str(convertedWeight) + " pounds on the Moon."
     return render_template('response.html', response = reply)
 
 @app.route("/responseMars")
@@ -43,7 +43,7 @@ def render_responseMars():
     
     convertedWeight = float(weight)*0.38
     
-    reply = "Your weight is " + str(convertedWeight) + " on Mars."
+    reply = "You would weigh " + str(convertedWeight) + " pounds on Mars."
     return render_template('response.html', response = reply)
 
 @app.route("/responseTitan")
@@ -55,7 +55,7 @@ def render_responseTitan():
     
     convertedWeight = float(weight)*0.14
     
-    reply = "Your weight is " + str(convertedWeight) + " on Titan."
+    reply = "You would weigh " + str(convertedWeight) + " pounds on Titan."
     return render_template('response.html', response = reply)
 
 @app.route("/responseVenus")
@@ -67,7 +67,7 @@ def render_responseVenus():
     
     convertedWeight = float(weight)*0.91
     
-    reply = "Your weight is " + str(convertedWeight) + " on Venus."
+    reply = "You would weigh " + str(convertedWeight) + " pounds on Venus."
     return render_template('response.html', response = reply)
 
     
