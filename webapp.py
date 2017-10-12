@@ -29,7 +29,9 @@ def render_responseMoon():
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
     #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
     
-    reply = "Your weight is " + weight*0.177 + " on this planet."
+    convertedWeight = float(weight)*0.177
+    
+    reply = "Your weight is " + convertedWeight + " on this planet."
     return render_template('response.html', response = reply)
 
 @app.route("/responseMars")
@@ -39,7 +41,9 @@ def render_responseMars():
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
     #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
     
-    reply = "Your weight is " + weight*0.38 + " on this planet."
+    convertedWeight = float(weight)*0.38
+    
+    reply = "Your weight is " + convertedWeight + " on this planet."
     return render_template('response.html', response = reply)
 
 @app.route("/responseTitan")
@@ -49,7 +53,9 @@ def render_responseTitan():
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
     #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
     
-    reply = "Your weight is " + weight*0.14 + " on this planet."
+    convertedWeight = float(weight)*0.14
+    
+    reply = "Your weight is " + convertedWeight + " on this planet."
     return render_template('response.html', response = reply)
 
 @app.route("/responseVenus")
@@ -59,7 +65,9 @@ def render_responseVenus():
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
     #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
     
-    reply = "Your weight is " + weight*0.91 + " on this planet."
+    convertedWeight = float(weight)*0.91
+    
+    reply = "Your weight is " + convertedWeight + " on this planet."
     return render_template('response.html', response = reply)
 
     
