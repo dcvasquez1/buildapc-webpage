@@ -24,10 +24,12 @@ def render_page4():
 
 @app.route("/response")
 def render_response():
-    responseWeight = float(request.args['weight'])
+    weight = request.args['weight']
     #The request object stores infor about the request sent to the server
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
     #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
+    
+    responseWeight = weight
     
     reply = "Your weight is " + responseWeight + " on this planet."
     return render_template('response.html', response = reply)
