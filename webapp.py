@@ -29,9 +29,7 @@ def render_response():
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
     #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
     
-    responseWeight = weight
-    
-    reply = "Your weight is " + responseWeight + " on this planet."
+    reply = "Your weight is " + weight + " on this planet."
     return render_template('response.html', response = reply)
     
 if __name__=="__main__":
