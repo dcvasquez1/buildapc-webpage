@@ -22,15 +22,46 @@ def render_page3():
 def render_page4():
     return render_template('titan.html')
 
-@app.route("/response")
+@app.route("/responseMoon")
 def render_response():
     weight = request.args['weight']
     #The request object stores infor about the request sent to the server
     #args is a "MultiDict" - a dictionary that can hold more than one value per key
     #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
     
-    reply = "Your weight is " + weight + " on this planet."
+    reply = "Your weight is " + weight*0.177 + " on this planet."
     return render_template('response.html', response = reply)
+
+@app.route("/responseMars")
+def render_response():
+    weight = request.args['weight']
+    #The request object stores infor about the request sent to the server
+    #args is a "MultiDict" - a dictionary that can hold more than one value per key
+    #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
+    
+    reply = "Your weight is " + weight*0.38 + " on this planet."
+    return render_template('response.html', response = reply)
+
+@app.route("/responseTitan")
+def render_response():
+    weight = request.args['weight']
+    #The request object stores infor about the request sent to the server
+    #args is a "MultiDict" - a dictionary that can hold more than one value per key
+    #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
+    
+    reply = "Your weight is " + weight*0.14 + " on this planet."
+    return render_template('response.html', response = reply)
+
+@app.route("/responseVenus")
+def render_response():
+    weight = request.args['weight']
+    #The request object stores infor about the request sent to the server
+    #args is a "MultiDict" - a dictionary that can hold more than one value per key
+    #The information in args is visible in the url for the page being requested (ex. .../response?color=blue)
+    
+    reply = "Your weight is " + weight*0.91 + " on this planet."
+    return render_template('response.html', response = reply)
+
     
 if __name__=="__main__":
     app.run(debug=False, port=54321)
