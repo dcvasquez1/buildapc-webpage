@@ -38,13 +38,13 @@ button {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	background-color: #5a73a5;
+	background-color: #9933ff;
 	color: #ffffff;
 }
 
 .navbar-default {
-	background-color: gray;
-	border-color: gray;
+	background-color: #1a1a1a;
+	border-color: #1a1a1a;
 }
 
 .navbar-default .navbar-nav > li > a,
