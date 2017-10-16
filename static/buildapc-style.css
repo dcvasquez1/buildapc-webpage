@@ -9,11 +9,11 @@ img {
 	display:inline;
 }
 h1 {
-	font-family: Avantgarde, "Times New Roman";
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 p {
-	font-family: Avantgarde, "Times New Roman";
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 200%;
     	clear:left;
     	text-align: left;
