@@ -8,6 +8,10 @@ figure {
 img {
 	display:inline;
 }
+h1 {
+	font-family: "Avant Garde", "Times New Roman";
+}
+
 p {
 	font-family: "Avant Garde", "Times New Roman";
 	font-size: 200%;
