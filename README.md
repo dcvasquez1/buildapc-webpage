@@ -1,3 +1,3 @@
-# buildapc-webpage
+# DSW-Weight-Converter
 
-Webpage meant to help one build a PC.
+Converts weight to match the gravity of a selected celestial body.
