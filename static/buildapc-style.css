@@ -10,29 +10,12 @@ img {
 }
 p {
 	font-family: "Avant Garde", "Times New Roman";
-	font-size: 150%;
+	font-size: 200%;
     	clear:left;
     	text-align: left;
     	margin-left: 20px;
     	margin-right: 280px;
     	padding-bottom: 8px;
-}
-h3 {
-    	clear:left;
-}
-
-iframe {
-	border: none;
-	margin: 15px;
-}
-
-button {
-	border: none;
-	margin: 15px;
-	background-color: #5a73a5;
-	color: #ffffff;
-	font-size: 18px;
-	border-radius: 4px;
 }
 
 .navbar-default .navbar-nav > .active > a,
